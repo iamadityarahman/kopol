@@ -1,21 +1,15 @@
 <div class="box box-primary">
     <div class="box-header with-border">
-        <div class="box-title">Transaksi Pinjaman</div>
+        <div class="box-title">Transaksi Angsuran</div>
     </div>
 
     <div class="box-body">
         <form role="form">
             <div class="form-group">
-                <label for="jumlah_pinjaman">Jumlah Pinjaman</label>
-                <input type="text" name="jumlah_pinjaman" id="jumlah_pinjaman" class="form-control" placeholder="Masukan jumlah pinjaman tanpa pemisah ribuan"/>
-            </div>
-
-            <div class="form-group">
-                <label for="lama_pinjaman">Lama Pinjaman</label>
-                <select class="form-control" id="lama_pinjaman" name="lama_pinjaman">
-                    <option>3 Bulan</option>
-                    <option>6 Bulan</option>
-                    <option>12 Bulan</option>
+                <label for="jenis_simpanan">Pilih pinjaman</label>
+                <select class="form-control" id="jenis_simpanan" name="jenis_simpanan">
+                    <option>SM100 - 500.000 (50.000/bulan) - 12 Februrari 2018</option>
+                    <option>SM200 - 1.000.000 (100.000/bulan) - 05 April 2018</option>
                 </select>
             </div>
 
@@ -30,13 +24,13 @@
     </div>
 
     <div class="box-footer">
-        <button type="simpan" class="btn btn-primary">Pinjam</button>
+        <button type="simpan" class="btn btn-primary">Angsur</button>
     </div>
     </form>
 </div>
 <div class="box box-info">
     <div class="box-header with-border">
-        <div class="box-title">Riwayat Transaksi Pinjaman</div>
+        <div class="box-title">Riwayat Transaksi Simpan</div>
     </div>
 
     <div class="box-body">
@@ -47,9 +41,7 @@
                     <th>Tanggal transaksi</th>
                     <th>No transaksi</th>
                     <th>Kode pinjaman</th>
-                    <th>Lama pinjam</th>
-                    <th>Jumlah pinjaman</th>
-                    <th>Angsuran perbulan</th>
+                    <th>Angsuran ke</th>
                     <th>Status</th>
                 </tr>
                 </thead>
@@ -58,28 +50,22 @@
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM100</td>
-                        <td>3 bulan</td>
-                        <td>500.000</td>
-                        <td>50.000</td>
+                        <td>Simpanan Sukarela</td>
+                        <td>1</td>
                         <td><span class="label label-warning">Pending</span></td>
                     </tr>
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM200</td>
-                        <td>6 bulan</td>
-                        <td>1.000.000</td>
-                        <td>100.000</td>
+                        <td>Simpanan Sukarela</td>
+                        <td>2</td>
                         <td><span class="label label-danger">Gagal</span></td>
                     </tr>
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM300</td>
-                        <td>12 bulan</td>
-                        <td>20.000</td>
-                        <td>2.000</td>
+                        <td>Simpanan Pokok</td>
+                        <td>3</td>
                         <td><span class="label label-success">Sukses</span></td>
                     </tr>
                 <?php endfor; ?>

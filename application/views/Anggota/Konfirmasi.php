@@ -2,9 +2,16 @@
     <div class="box-body">
         <form role="form">
             <div class="box-header with-border">
-                <h3><b><i class="fa fa-check-circle"></i> Konfrmasi Transaksi</b></h3>
+                <div class="box-title">
+                    <i class="fa fa-check-circle"></i> Konfrmasi Transaksi
+                </div>
             </div>
             <div class="box-body">
+                <div class="form-group">
+                    <label for="no_tagihan">Nomor Tagihan Transaksi</label>
+                    <input type="text" class="form-control" id="no_tagihan" placeholder="Nomor Tagihan">
+                </div>
+
                 <div class="form-group">
                     <label for="no_rekening">No Rekening Tujuan</label>
                     <select class="form-control" id="no_rekening" name="no_rekening">

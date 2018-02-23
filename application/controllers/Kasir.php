@@ -29,11 +29,19 @@ class Kasir extends CI_Controller {
         $this->template_kasir->display('kasir/pinjam', $data);
     }
 
-    function konfirmasi()
+    function tarik()
     {
-        $data['title'] = "Konfrmasi Transaksi";
-        $data['link'] = "konfirmasi";
+        $data['title'] = "Tarik simpaan";
+        $data['link'] = "tarik";
 
-        $this->template_kasir->display('kasir/konfirmasi', $data);
+        $this->template_kasir->display('kasir/tarik', $data);
+    }
+
+    function angsur ()
+    {
+        $data['title'] = "Angsur pinjaman";
+        $data['link'] = "angsur";
+
+        $this->template_kasir->display('kasir/angsur', $data);
     }
 }

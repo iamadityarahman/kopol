@@ -1,31 +1,7 @@
 <div class="mt-4">
-    <div class="card-deck mb-4 ml-0 mr-0">
-        <div class="card text-white bg-primary">
-            <div class="card-body">
-                <h3 class="card-title text-center">
-                    <span class="oi oi-graph"></span> Total Transaksi
-                </h3>
-                <h6 class="card-text text-center">Rp. 1.000.000.000,-</h6>
-            </div>
-        </div>
-        <div class="card text-white bg-success">
-            <div class="card-body">
-                <h3 class="card-title text-center">
-                    <span class="oi oi-chevron-bottom"></span> Total Debit
-                </h3>
-                <h6 class="card-text text-center">Rp. 250.000.000,-</h6>
-            </div>
-        </div>
-        <div class="card text-white bg-danger">
-            <div class="card-body">
-                <h3 class="card-title text-center">
-                    <span class="oi oi-chevron-top"></span> Total Kredit
-                </h3>
-                <h6 class="card-text text-center">Rp. 500.000.000,-</h6>
-            </div>
-        </div>
+    <div class="container">
+        <h1 class="text-fuchsia">Laporan Keuangan Koperasi</h1>
     </div>
-
     <div class="table-responsive">
         <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>

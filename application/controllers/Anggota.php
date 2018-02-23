@@ -7,8 +7,8 @@
 
         function index()
         {
-            $data['title'] = "Home";
-            $data['link'] = "home";
+            $data['title'] = "Dashboard";
+            $data['link'] = "dashboard";
 
             // Biodata
             $data['no_anggota'] = "ABC123456";
@@ -24,7 +24,7 @@
             $data['email'] = "siti.munaroh@um.ac.id";
             $data['anggota_sejak'] = "12 Oktober 2015";
 
-            $this->template_anggota->display('anggota/home', $data);
+            $this->template_anggota->display('anggota/dashboard', $data);
         }
 
         function konfirmasi() {
@@ -46,5 +46,19 @@
             $data['link'] = "pinjam";
 
             $this->template_anggota->display('anggota/pinjam', $data);
+        }
+
+        function tarik() {
+            $data['title'] = "Tarik Simpanan";
+            $data['link'] = "tarik";
+
+            $this->template_anggota->display('anggota/tarik', $data);
+        }
+
+        function angsur() {
+            $data['title'] = "Angsur Pinjaman";
+            $data['link'] = "angsur";
+
+            $this->template_anggota->display('anggota/angsur', $data);
         }
     }

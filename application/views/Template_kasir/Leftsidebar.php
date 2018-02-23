@@ -18,9 +18,14 @@
                     <i class="fa fa-chevron-up"></i> <span>Pinjam</span>
                 </a>
             </li>
-            <li id="konfirmasi">
-                <a href="<?=site_url('kasir/konfirmasi')?>">
-                    <i class="fa fa-check-circle"></i> <span>Konfirmasi Transaksi</span>
+            <li id="tarik">
+                <a href="<?=site_url('kasir/tarik')?>">
+                    <i class="fa fa-chevron-up"></i> <span>Tarik simpanan</span>
+                </a>
+            </li>
+            <li id="angsur">
+                <a href="<?=site_url('kasir/angsur')?>">
+                    <i class="fa fa-chevron-up"></i> <span>Angsur pinjaman</span>
                 </a>
             </li>
         </ul>

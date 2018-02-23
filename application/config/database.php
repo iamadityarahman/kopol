@@ -70,6 +70,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
+
+/*
 $active_group = 'default';
 $query_builder = TRUE;
 
@@ -93,4 +95,18 @@ $db['default'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
+);
+*/
+
+$active_group = 'database';
+$query_builder = TRUE;
+
+$db['database'] = array(
+    'dsn'	=> '',
+    'hostname' => 'localhost',
+    'username' => 'aditadit',
+    'password' => 'qwe',
+    'database' => 'kopol',
+    'dbdriver' => 'mysqli',
+    'dbprefix' => '',
 );

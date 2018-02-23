@@ -1,7 +1,22 @@
-<div class="pt-3 pb-3 mt-5 mb-5">
-    <h3 class="text-fuchsia">Kirimkan kritik dan saran kepada kami:</h3>
-    <h6>Masukan kritikan dengan sopan dan jelas</h6>
+<div class="pt-0 pb-5 mt-5 mb-5">
 
+    <h1 class="text-fuchsia">Hubungi Kami</h1>
+    <hr/>
+    <b><p>Jika anda mempunyai pertanyaan tentang Koperasi Online UM dan layanan-layanan kami, silahkan menuliskannya di formulir yang disediakan dihalaman ini</p></b>
+
+    <p>Anda juga bisa mengirimkan pertanyaan atau komentar lewat surat ke kantor Koperasi UM di Kampus Universitas Negeri Malang.</p>
+
+    <address>
+        <b><p>Email:</p></b>
+        <p>koperasionline@um.ac.id</p>
+        <b><p>Alamat:</p></b>
+        <p>Universitas Negeri Malang</p>
+        <p>Jl. Semarang 5 Malang 65145</p>
+        <p>Telp. (0341) 112233</p>
+    </address>
+
+    <hr/><br/>
+    <h2>Form Kritik dan Saran</h2>
     <form>
         <div class="form-group">
             <label for="email">Alamat email</label>

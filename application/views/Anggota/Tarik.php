@@ -1,22 +1,13 @@
 <div class="box box-primary">
     <div class="box-header with-border">
-        <div class="box-title">Transaksi Pinjaman</div>
+        <div class="box-title">Transaksi Tarik Simpanan</div>
     </div>
 
     <div class="box-body">
         <form role="form">
             <div class="form-group">
-                <label for="jumlah_pinjaman">Jumlah Pinjaman</label>
-                <input type="text" name="jumlah_pinjaman" id="jumlah_pinjaman" class="form-control" placeholder="Masukan jumlah pinjaman tanpa pemisah ribuan"/>
-            </div>
-
-            <div class="form-group">
-                <label for="lama_pinjaman">Lama Pinjaman</label>
-                <select class="form-control" id="lama_pinjaman" name="lama_pinjaman">
-                    <option>3 Bulan</option>
-                    <option>6 Bulan</option>
-                    <option>12 Bulan</option>
-                </select>
+                <label for="jumlah_tarik">Jumlah yang Ditarik</label>
+                <input type="text" name="jumlah_tarik" id="jumlah_tarik" class="form-control" placeholder="Masukan jumlah peneraikan tanpa tanda pemisah"/>
             </div>
 
             <div class="form-group">
@@ -30,13 +21,13 @@
     </div>
 
     <div class="box-footer">
-        <button type="simpan" class="btn btn-primary">Pinjam</button>
+        <button type="simpan" class="btn btn-primary">Tarik</button>
     </div>
     </form>
 </div>
 <div class="box box-info">
     <div class="box-header with-border">
-        <div class="box-title">Riwayat Transaksi Pinjaman</div>
+        <div class="box-title">Riwayat Penarikan Simpanan</div>
     </div>
 
     <div class="box-body">
@@ -46,10 +37,8 @@
                 <tr>
                     <th>Tanggal transaksi</th>
                     <th>No transaksi</th>
-                    <th>Kode pinjaman</th>
-                    <th>Lama pinjam</th>
-                    <th>Jumlah pinjaman</th>
-                    <th>Angsuran perbulan</th>
+                    <th>Jumlah penarikan</th>
+                    <th>Sisa saldo</th>
                     <th>Status</th>
                 </tr>
                 </thead>
@@ -58,28 +47,22 @@
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM100</td>
-                        <td>3 bulan</td>
-                        <td>500.000</td>
-                        <td>50.000</td>
+                        <td>1.000.000</td>
+                        <td>12.000.000</td>
                         <td><span class="label label-warning">Pending</span></td>
                     </tr>
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM200</td>
-                        <td>6 bulan</td>
-                        <td>1.000.000</td>
-                        <td>100.000</td>
+                        <td>2.000.000</td>
+                        <td>14.000.000</td>
                         <td><span class="label label-danger">Gagal</span></td>
                     </tr>
                     <tr>
                         <td>02/02/2018 - 16:00</td>
                         <td><a href="#">SPN123456</a></td>
-                        <td>SM300</td>
-                        <td>12 bulan</td>
-                        <td>20.000</td>
-                        <td>2.000</td>
+                        <td>500.000</td>
+                        <td>20.000.000</td>
                         <td><span class="label label-success">Sukses</span></td>
                     </tr>
                 <?php endfor; ?>
